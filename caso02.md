@@ -1,4 +1,5 @@
-Title:   Booking a table for tonight works
-Do this: Pick today's date, choose 7:00 PM, set party size to 0,
-         type a name and a real email, then press Book.
-Expect:  An error message appears, showing that the number of guests must be at least 1
+Title:   Party size above the maximum is rejected
+Do this: Pick today's date, choose a time at least 15 minutes from now,
+         set party size to 11, type a name and a real email, then press Book.
+Expect:  The booking is not confirmed — no confirmation screen appears,
+         and the reference number is not generated.
